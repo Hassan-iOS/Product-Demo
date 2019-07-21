@@ -16,6 +16,9 @@
 		7B0AC7BC1AAEF90000885D4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0AC7BB1AAEF90000885D4A /* AppDelegate.swift */; };
 		7B0AC7C11AAEF90000885D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0AC7BF1AAEF90000885D4A /* Main.storyboard */; };
 		7B0AC7C61AAEF90000885D4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0AC7C41AAEF90000885D4A /* LaunchScreen.xib */; };
+		DD111B6022E49FDA008160F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111B5F22E49FDA008160F1 /* ViewController.swift */; };
+		DD111B6322E4A02B008160F1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111B6222E4A02B008160F1 /* Theme.swift */; };
+		DD111B6522E4A127008160F1 /* NormalPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111B6422E4A127008160F1 /* NormalPhotosViewController.swift */; };
 		DD13724822D8207B0027448D /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD13724722D8207B0027448D /* PinterestLayout.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +34,9 @@
 		7B0AC7BB1AAEF90000885D4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B0AC7C01AAEF90000885D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B0AC7C51AAEF90000885D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD111B5F22E49FDA008160F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD111B6222E4A02B008160F1 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DD111B6422E4A127008160F1 /* NormalPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalPhotosViewController.swift; sourceTree = "<group>"; };
 		DD13724722D8207B0027448D /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				77B260E11F2E73F7003A383F /* PhotoStreamViewController.swift */,
+				DD111B5F22E49FDA008160F1 /* ViewController.swift */,
+				DD111B6422E4A127008160F1 /* NormalPhotosViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -108,6 +116,7 @@
 		7B0AC7B81AAEF90000885D4A /* Pinterest */ = {
 			isa = PBXGroup;
 			children = (
+				DD111B6122E4A006008160F1 /* Theme */,
 				7B0AC7BB1AAEF90000885D4A /* AppDelegate.swift */,
 				77B260E21F2E73F7003A383F /* Assets */,
 				77995C7A1F40C92500AF30AF /* Layouts */,
@@ -135,6 +144,14 @@
 				7B0AC7BF1AAEF90000885D4A /* Main.storyboard */,
 			);
 			name = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+		DD111B6122E4A006008160F1 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				DD111B6222E4A02B008160F1 /* Theme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,11 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD111B6522E4A127008160F1 /* NormalPhotosViewController.swift in Sources */,
+				DD111B6022E49FDA008160F1 /* ViewController.swift in Sources */,
 				DD13724822D8207B0027448D /* PinterestLayout.swift in Sources */,
 				77B260E71F2E74F7003A383F /* PhotoStreamViewController.swift in Sources */,
 				77B260E61F2E74F7003A383F /* Photo.swift in Sources */,
 				7B0AC7BC1AAEF90000885D4A /* AppDelegate.swift in Sources */,
 				77B260E81F2E74F7003A383F /* AnnotatedPhotoCell.swift in Sources */,
+				DD111B6322E4A02B008160F1 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
